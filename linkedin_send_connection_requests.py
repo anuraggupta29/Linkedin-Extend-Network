@@ -35,7 +35,7 @@ def satisfyHeadline(sectionDiv):
 
 	satisfy = False
 
-	searchFor = []#['sde','amazon','oracle','google','microsoft','oyo','morgan','shaw','flipkart','samsung','oneplus']#['recruiter', 'amazon', 'sde']
+	searchFor = []#['sde','amazon','oracle','google','microsoft','flipkart','samsung','oneplus']
 	for word in searchFor:
 		if text.lower().find(word) >= 0:
 			satisfy = True

@@ -11,9 +11,9 @@ def login():
 		driver.find_element_by_class_name("nav__button-secondary").click()
 		time.sleep(3)
 		username = driver.find_element_by_id("username") # Getting the login element
-		username.send_keys("anuraggupta29@outlook.com") # Sending the keys for username
+		username.send_keys("enter your email here") # Sending the keys for username
 		password = driver.find_element_by_id("password") # Getting the password element
-		password.send_keys("Agrox29@arun") # Sending the keys for password
+		password.send_keys("enter your password here") # Sending the keys for password
 		driver.find_element_by_class_name("btn__primary--large").click() # Getting the tag for submit button
 
 	except:
